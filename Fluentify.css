@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+nav{
+  background-color: #0d325a;
+  height: 20vh;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+  color: white;
+}
+
+.navbar{
+  clear: both;
+  content: "";
+  display: table;
+  font-size: 11px;
+}
+
+.navbar > .nb-left, .nb-right{
+  float:left;
+}
+
+.nb-left{
+  width:70%;
+  clear: both;
+  content: "";
+  display: table;
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.nb-right{
+  width:30%;
+}
+
+.nb-left > #logo , #toolbar{
+  float:left;
+}
+
+#logo{
+  width:15%;
+  margin-top: 10px;
+}
+
+
+.pointnav{
+  float:left;
+  width:15%;
+  margin-left:5%;
+  line-height: 20vh;
+  text-align: center;
+}
+
+.nb-right > .button{
+  height: 10vh;
+  float:left;
+  width: 33.33333%;
+  text-align: center;
+  line-height: 20vh;
+  font-size: 11px;
+}
