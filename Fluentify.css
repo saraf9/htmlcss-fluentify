@@ -4,9 +4,13 @@
   padding:0;
 }
 
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
 nav{
   background-color: #0d325a;
-  height: 20vh;
+  height: 15vh;
 }
 
 .container{
@@ -16,28 +20,28 @@ nav{
 }
 
 .navbar{
+  width: 100%;
+  height: 100%;
   clear: both;
   content: "";
   display: table;
   font-size: 11px;
 }
 
-.navbar > .nb-left, .nb-right{
+.nb-left{
   float:left;
+  width:60%;
 }
 
-.nb-left{
-  width:70%;
-  clear: both;
-  content: "";
-  display: table;
-  clear: both;
+.nb-left::after{
+  lear: both;
   content: "";
   display: table;
 }
 
 .nb-right{
   width:30%;
+  float:right;
 }
 
 .nb-left > #logo , #toolbar{
@@ -46,23 +50,69 @@ nav{
 
 #logo{
   width:15%;
-  margin-top: 10px;
+  margin-top: 25px;
 }
-
 
 .pointnav{
   float:left;
-  width:15%;
-  margin-left:5%;
-  line-height: 20vh;
+  width:20%;
+  line-height: 15vh;
   text-align: center;
 }
 
 .nb-right > .button{
-  height: 10vh;
+  height: 15vh;
   float:left;
   width: 33.33333%;
   text-align: center;
-  line-height: 20vh;
+  line-height: 15vh;
   font-size: 11px;
 }
+
+.grey{
+  background-color:  #f9f9f9;
+  color: black;
+  text-align: center;
+  padding:15px;
+  width: 100%;
+}
+
+
+.row{
+  height:30vh;
+  color: darkblue;
+  padding: 50px;
+  clear: both;
+  content: 0;
+  display: table;
+}
+
+#first img{
+  width:200px;
+}
+
+#first h4, p{
+  text-align: center;
+}
+
+hr{
+display: block;
+height:1px;
+border-top: 1px solid green;
+padding: 0;
+margin:5px;
+}
+
+#first > *{
+  float:left;
+  width:30%;
+  text-align: center;
+}
+
+
+
+/* .row#second  > *{
+  float:left;
+  width:50%;
+  text-align: center;
+} */
