@@ -35,7 +35,7 @@ nav{
 }
 
 .buttonse::after{
-  lear: both;
+  clear: both;
   content: "";
   display: table;
 }
@@ -47,7 +47,7 @@ nav{
 }
 
 .nb-right{
-  width:30%;
+  width:35%;
   float:right;
   height:15vh;
 }
@@ -65,7 +65,8 @@ nav{
   float:left;
   width:17%;
   line-height: 15vh;
-  text-align: center;}
+  text-align: center;
+}
 
 .pointnav:hover{
   color:orange;
@@ -132,7 +133,6 @@ nav{
   color: #999;
 }
 
-
 .row{
   width:90vw;
   height:30vh;
@@ -150,7 +150,6 @@ nav{
   width:33.33333%;
   padding:30px;
   margin-bottom: 30px;
-
 }
 
 .row-type-first img{
@@ -166,7 +165,7 @@ nav{
   margin:auto;
   margin-top:20px;
   margin-bottom: 20px;
-  }
+}
 
 .row-type-first h6{
   color: #7fb802;
@@ -225,8 +224,8 @@ nav{
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
-
 }
+
 .description h2{
   color: #4a4a4a;
   font-size: 30px;
