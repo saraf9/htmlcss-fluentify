@@ -80,22 +80,21 @@ nav{
 
 #but2{
   border: 1px solid lightblue;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 #but3{
-  border: 1px solid lightblue;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: green;
 }
 
 .button{
-  height: 15vh;
-  float:left;
   width: 33.33333%;
   text-align: center;
-  line-height: 15vh;
   font-size: 11px;
+  padding:10px;
+  margin:5px;
+  line-height: 15vh;
 }
 
 #but1:hover{
